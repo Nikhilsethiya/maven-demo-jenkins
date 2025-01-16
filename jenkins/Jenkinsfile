@@ -3,6 +3,11 @@ pipeline
 agent {
   label 'agent1'
 }
+
+tools {
+  maven 'maven'
+}
+
 stages{
     stage ('Build')
     {
